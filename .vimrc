@@ -11,7 +11,7 @@ set hidden
 set showcmd
 set showmode
 
-colorscheme railscasts
+colorscheme tomorrow_night
 syntax enable
 filetype plugin indent on
 set tabstop=2
