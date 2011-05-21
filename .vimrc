@@ -34,6 +34,7 @@ set nuw=6
 
 set incsearch
 set hlsearch
+noremap <leader><cr> :noh<cr>
 
 set visualbell
 
