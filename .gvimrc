@@ -7,8 +7,5 @@ set shortmess+=I
 set guifont=Monaco:h11
 
 if has("gui_macvim")
-  macmenu &File.New\ Tab key=<nop>
-  unmap <leader>t
-  map <D-t> :CommandT<cr>
-  map <silent> <D-y> :CommandTFlush<cr>
+  map <silent> <leader>y :CommandTFlush<cr>
 endif
