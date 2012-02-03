@@ -7,5 +7,8 @@ set shortmess+=I
 set guifont=Monaco:h11
 
 if has("gui_macvim")
+  " Command-T customization
   map <silent> <leader>y :CommandTFlush<cr>
+  let g:CommandTAcceptSelectionTabMap="<cr>"
+  let g:CommandTAcceptSelectionMap="<S-e>"
 endif

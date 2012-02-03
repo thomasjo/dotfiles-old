@@ -25,3 +25,6 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-tomorrow"]
+	path = bundle/vim-tomorrow
+	url = https://github.com/ChrisKempson/Vim-Tomorrow-Theme.git
