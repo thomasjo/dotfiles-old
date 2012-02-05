@@ -11,7 +11,7 @@ set hidden
 set showcmd
 set showmode
 
-colorscheme tomorrow_night
+colorscheme Tomorrow-Night
 syntax enable
 filetype plugin indent on
 
@@ -55,4 +55,15 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 "map <leader>tf :tabfirst<cr>
 "map <leader>tl :tablast<cr>
 "map <leader>tm :tabmove
+
+" Disable arrow keys.
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
 
